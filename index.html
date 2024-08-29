@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K. Kanakamahalakshmi Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>K. Kanakamahalakshmi</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   
+    <div class="container" id="home">
+        <section class=" home-section">
+            <div class="home-text">
+                <p style="font-size: 2em; font-weight: bold;">Hi,</p>
+                <p style="font-size: 2em; font-weight: bold; color: green;">I am K. Kanakamahalakshmi</p>
+                <p style="font-size: 1.5em; font-weight: bold;">App Developer, Web Developer</p>
+            </div>
+            <img src="https://i.ibb.co/tMzT3Vx/PROFILE.jpg" alt="PROFILE" " alt="Avatar" class="home-avatar">
+        </section>
+    </div>
+    
+        
+        
+    </div>
+    <div class="container" id="about">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Hi there! I'm K. Kanakamahalakshmi, a driven and passionate individual with a deep love for technology and development. 
+                I thrive on challenges and constantly set goals for myself to achieve greater heights. My interests lie in creating impactful 
+                and efficient solutions through coding and design. When I'm not coding, you can find me exploring new technologies or enjoying
+                 a good book. I believe in lifelong learning and continuously seek to improve my skills and knowledge. Join me as I embark on 
+                 my journey to make a mark in the tech world.</p>
+            <h2>Projects</h2>
+            <div class="section" style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <div class="project-box">
+                    <i class="fas fa-calendar-day"></i>
+                    <div>
+                        <h3>Leave Management App</h3>
+                        <p>A comprehensive application for managing leave requests with an intuitive interface and robust features.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <i class="fas fa-book"></i>
+                    <div>
+                        <h3>Online Bookstore Website</h3>
+                        <p>A full-featured e-commerce website for purchasing books online, with secure payment and user-friendly navigation.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <a href="https://github.com/Kalisettykanakamahalakshmi/womensafetyapp" target="_blank" style="color: black; text-decoration: none;">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h3>Women Safety App</h3>
+                            <p>An app designed to enhance the safety of women through real-time alerts and emergency services.</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <div class="container" id="education">
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="education-cards">
+                    <div class="education-card tenth" id="tenth" onclick="toggleEducation('tenth')">
+                        <h3>10th Class</h3>
+                        <p><strong>School:</strong> Srinivas School</p>
+                        <p><strong>Score:</strong> 10 points</p>
+                    </div>
+                    <div class="education-card inter" id="inter" onclick="toggleEducation('inter')">
+                        <h3>Intermediate</h3>
+                        <p><strong>College:</strong> Sri Chaitanya College</p>
+                        <p><strong>Score:</strong> 96%</p>
+                    </div>
+                    <div class="education-card engineering" id="engineering" onclick="toggleEducation('engineering')">
+                        <h3>Engineering</h3>
+                        <p><strong>Degree:</strong> B.Tech</p>
+                        <p><strong>Year:</strong> Pursuing 4th year</p>
+                        <p><strong>CGPA:</strong> 9.6</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="skills">
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skill-box" onclick="toggleSkill(this)">
+                <i class="fab fa-android"></i>
+                <div>
+                    <h3>Android App Development</h3>
+                    <p>Proficient in developing Android applications using Android Studio. Completed one Android app with a focus on user experience and functionality.</p>
+                </div>
+            </div>
+            <div class="skill-box" onclick="toggleSkill(this)">
+                <i class="fas fa-code"></i>
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Skilled in full-stack web development, with experience in HTML, CSS, JavaScript, and PHP. Developed a complete website from scratch.</p>
+                </div>
+            </div>
+            <div class="skill-box" onclick="toggleSkill(this)">
+                <i class="fas fa-paint-brush"></i>
+                <div>
+                    <h3>UI/UX Design</h3>
+                    <p>Strong understanding of user interface and user experience design principles. Adept at creating intuitive and visually appealing designs.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="sliding-gallery" id="gallery">
+        <img src="https://i.ibb.co/9pYLq5B/kavach.jpg" alt="Photo 1">
+        <img src="https://i.ibb.co/Jpn52HB/smart-parking.jpg" alt="Photo 2">
+        <img src="https://i.ibb.co/hDkzfbk/app-development.jpg" alt="Photo 3">
+        <img src="https://i.ibb.co/ZY6vzkr/Whats-App-Image-2024-08-06-at-1-04-12-AM.jpg" alt="Photo 4">
+        <img src="https://i.ibb.co/WsbHF1x/hhkavach.jpg" alt="phto 5">
+    </div>
+    <div class="container" id="contact">
+        <section class="section">
+            <div class="contact">
+                <div class="details">
+                    <h3>Contact Me</h3>
+                    <p><i class="fas fa-phone-alt"></i> 9347868707</p>
+                    <p><i class="fas fa-envelope"></i> 21nu1a0550@nsrit.edu.in</p>
+                    <div class="social">
+                        <a href="https://twitter.com/yourprofile" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kalisetty-kanakamahalakshmi-546513286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/yourprofile" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yourprofile" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+</body>
+</html>
